@@ -14,7 +14,7 @@ class Component {
         throw new Error(`${this.remove} should be overwrite.`);
     }
 
-    display() {
+    display(depth) {
         throw new Error(`${this.display} should be overwrite.`);
     }
 }

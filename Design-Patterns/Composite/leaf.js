@@ -5,7 +5,7 @@ class Leaf extends Component {
         super(name);
     }
 
-    display(depth = 1) {
+    display(depth = 0) {
         console.log(`${'-'.repeat(depth)} ${this.name}`);
     }
 }

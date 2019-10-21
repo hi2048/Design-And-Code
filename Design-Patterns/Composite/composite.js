@@ -15,7 +15,7 @@ class Composite extends Component {
         this.components.delete(c);
     }
 
-    display(depth = 1) {
+    display(depth = 0) {
         console.log(`${'-'.repeat(depth)} ${this.name}`);
 
         this.components.forEach((component) => (component.display(depth + 2)));
